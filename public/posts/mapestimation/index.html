@@ -1,0 +1,133 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>Map Estimation - Thoughts</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="The HTML5 Herald" />
+<meta name="author" content="" /><meta property="og:title" content="Map Estimation" />
+<meta property="og:description" content="Estimating Monge Maps Kantorovich If you look in a modern treatment of optimal transportation, you will likely find the problem defined as something like $$ W_c(\mu,\nu) = \inf_{\pi \in \Pi(\mu,\nu)} \int_{X \times Y} c(x,y) d\pi $$ this is the modern treatment of the problem, where we model the objective as finding the minimum cost coupling between $\mu$ and $\nu$. Originally, however, the problem formulated differently. Before Kantorovich blessed us all with modern probability theory, Gaspard Monge first proposed that we intead consider $$ \inf_{T : T_{\# \mu} = \nu } \int_{X} |T(x) - x| d\mu$$ In the case of the Euclidean squared cost, i." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jrichterpowell.ca/posts/mapestimation/" />
+<meta property="article:published_time" content="2021-02-08T20:35:02-05:00" />
+<meta property="article:modified_time" content="2021-02-08T20:35:02-05:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Map Estimation"/>
+<meta name="twitter:description" content="Estimating Monge Maps Kantorovich If you look in a modern treatment of optimal transportation, you will likely find the problem defined as something like $$ W_c(\mu,\nu) = \inf_{\pi \in \Pi(\mu,\nu)} \int_{X \times Y} c(x,y) d\pi $$ this is the modern treatment of the problem, where we model the objective as finding the minimum cost coupling between $\mu$ and $\nu$. Originally, however, the problem formulated differently. Before Kantorovich blessed us all with modern probability theory, Gaspard Monge first proposed that we intead consider $$ \inf_{T : T_{\# \mu} = \nu } \int_{X} |T(x) - x| d\mu$$ In the case of the Euclidean squared cost, i."/>
+
+<meta name="generator" content="Hugo 0.80.0" />
+    
+    <script src="/js/mathjax-config.js" defer></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://jrichterpowell.ca/fontawesome/css/all.min.css" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" /></head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="/">Thoughts</a>
+            </h1>
+
+      <ul id="social-media">
+      </ul>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+    </ul>
+</nav>
+
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Map Estimation</h1>
+
+    
+      <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2021-02-08T20:35:02-05:00">Feb 8, 2021</time>
+        </li>
+        
+        
+
+        
+
+        <li>2 minutes read</li>
+    </ul>
+</aside>
+
+    
+
+    
+
+
+    <h1 id="estimating-monge-maps">Estimating Monge Maps</h1>
+<h2 id="kantorovich">Kantorovich</h2>
+<p>If you look in a modern treatment of optimal transportation, you will likely find the problem defined as something like
+$$ W_c(\mu,\nu) = \inf_{\pi \in \Pi(\mu,\nu)} \int_{X \times Y} c(x,y) d\pi $$
+this is the modern treatment of the problem, where we model the objective as finding the minimum cost coupling between $\mu$ and $\nu$. Originally, however, the problem formulated differently. Before Kantorovich blessed us all with modern probability theory, Gaspard Monge first proposed that we intead consider
+$$ \inf_{T : T_{\# \mu} = \nu } \int_{X} |T(x) - x| d\mu$$
+In the case of the Euclidean squared cost, i.e $c(x,y) = |x-y|^2$ and $\mu$ being absolutely continuous with respect to the Lebesgue measure, the celeberated Brenier theorem tells us that these two formulations yield the same results. But most of the time, this is not the case. Indeed, the ubiquitous counterexample to the equivalence of these formulations is to consider the discrete problem where $X =\{x\}$, $\mu = \delta_{x}$, $Y = \{y_1,y_2\}$ $\nu = \frac{1}{2}\delta_{y_1} + \frac{1}{2} \delta_{y_2}$</p>
+<p>[Put a fat picture here.]</p>
+<h2 id="monge-strikes-back">Monge strikes back?</h2>
+<p>While Kantorovich&rsquo;s formulation is undeniably the &ldquo;correct&rdquo; one, in that it always has a solution (under very mild assumptions on $\mu$ and $\nu$), in some situations it might be interesting to consider how close we could get by still requiring a deterministic map (i.e ignoring plans). Of course, we would need a way of &ldquo;softening&rdquo; the constraint that $T_{\# \mu} = \nu$, since as shown above, it might not be possible to satisfy it. Instead, we could consider</p>
+<p>$$ \inf_{T \in L^2(X)} \left ( \int_{X} |T(x) - x|^2 d\mu  +  \Gamma (T_{\# \mu}, \nu) \right)$$
+where $\Gamma$ is some regularization term that penalizes $T_{\# \mu}$ for differing from $\nu$.</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://jrichterpowell.ca/posts/ttdnw1/"><i class="fa fa-chevron-circle-left"></i> Things that do not work: Part 1</a>
+        </li>
+        
+        
+    </ul>
+</section>
+  
+    
+    
+  
+
+
+
+
+
+</main>
+    <footer>
+        <h6> |
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://jrichterpowell.caindex.xml">Subscribe </a></h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+
+
+</body>
+
+</html>
+

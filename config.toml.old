@@ -1,0 +1,9 @@
+baseURL = "https://jrichterpowell.ca"
+languageCode = "en-us"
+title = "Thoughts"
+subtitle = "Takes on OT, ML and more. All opinions my own"
+theme = "kiera"
+
+[params]
+    mathjax = true
+

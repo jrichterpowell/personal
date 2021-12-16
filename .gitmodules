@@ -7,3 +7,6 @@
 [submodule "themes/kiera"]
 	path = themes/kiera
 	url = https://github.com/funkydan2/hugo-kiera.git
+[submodule "static/aphelion"]
+	path = static/aphelion
+	url = https://github.com/jrichterpowell/aphelion

@@ -1,9 +1,25 @@
 baseURL = "https://jrichterpowell.ca"
+
+# set your your own ga token here.
 languageCode = "en-us"
-title = "Thoughts"
-subtitle = "Takes on OT, ML and more. All opinions my own"
-theme = "kiera"
+
+# for using avicenna you need to set the themes to 'avicenna'
+enableEmoji = true
+theme = "avicenna"
+
+# This is your page title, it appears in your tab
+title = "Jack Richter-Powell"
+
+# number of posts to show on the blog page
+paginate = 10
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 1
 
 [params]
-    mathjax = true
-
+# it is used for the copy-right section of your page
+name = "Jack Richter-Powell"
+math = true

@@ -1,0 +1,45 @@
+---
+title: "Map Estimation"
+date: 2021-10-24T20:35:02-05:00
+---
+
+
+# Doing Tensor Calculus with Autograd
+
+## Intro to Tensors
+
+
+
+## A lightning overview of differential geometry
+### Smooth Manifolds
+A smooth manifold $M$ is a topological space endowed with a smooth structure, which is a collection of open sets on $M$ and diffeomorphisms $\varphi : M \to \R^n$ which biject that subset of $M$ to $\R^n$. The picture you should have in your head is that $M$ is locally Euclidean, similar to how the earth is locally flat. The dimension of $M$ is then said to be $n$, and the $\varphi$'s are referred to as coordinates, since they allow us to describe points on $M$ using values in $\R^n$.
+
+Since locally the manifold is Euclidean, we can attach a vector space to each point $p \in M$, which allows us to discuss vectors on the manifold. This vector space is usually denoted $T_p M$ and has the same dimension as $M$. You can "bundle" all these forms together to produce what's known as a tangent bundle $TM$, which you should think of as "smoothly" attaching a vector space ($T_p M$) to each point. Frustratingly, even though this assignment is smooth, one cannot compare vectors in spaces close -- say $T_p M$ and $T_q M$ for $p,q$ "close" -- to each other without running into headaches. We return to this issue below.
+
+Now since we have a vector space at each point, one can construct a dual vector space to act on those. This is denoted $T_p^*(M)$, and as usual, contains all the linear functionals acting on elements of $T_p M$. Similar to the tangent bundle, you can bundle all these spaces together to produce what we call the Cotangent bundle $T^* M$.  
+
+### Exterior Calculus
+The central purpose of these constructions is that they allow you to extend vector calculus beyond the Euclidean space. 
+
+
+### Riemannian Structures
+A Riemmaninan manifold $(M,g)$ is a smooth manifold with a given bilinear function $g$ which at each point $p\in M$ gives
+$$ g_p : T_p M \times T_p M  \to \R \qquad \text{ denoted } g_p(v,w) = \ang{v,w} \text{ for }v,w \in T_p M$$
+
+
+
+# Calculations in Coordinates using Autograd
+## Autograd
+Automatic differentiation -- referred to colloquially as "autograd" -- in the machine learning community, is a technique which allows the computation of arbitrary derivatives of functions defined in code. The idea is to exploit the fact that, regardless of what abstractions are at play, code is always reduced to simple arithmetic operations. One can then differentiate those instructions using the chain rule to compute derivatives.
+
+The beauty is that, due to the existence of tensor libraries like Pytorch and more recently JAX, the end user does not need to concern themselves with the inner workings of automatic differentiation. These libraries expose high level API's which take in functions and return their gradients, or that allow the computation of efficient Jacobian vector products in linear time. The last part is of critical importance, since as we will see below, nearly all the important calculations in coordinates can be reduced to a combination of derivatives and JVP's.
+
+## Exterior Derivatives
+
+## Pullbacks
+An important construction in differential geometry is the pullback. 
+
+## Lie Derivatives 
+There is an amazing identity for the exterior calculus which tells us that the Lie derivative satisfies the following
+$$ L_X \omega = d(\iota_X \omega) + \iota_X (d\omega)$$
+

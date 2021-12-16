@@ -2,29 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2021-10-24T20:35:02-05:00</lastmod>
-  </url><url>
-    <loc>https://example.com/posts/diffautograd/</loc>
-    <lastmod>2021-10-24T20:35:02-05:00</lastmod>
-  </url><url>
-    <loc>https://example.com/posts/</loc>
-    <lastmod>2021-10-24T20:35:02-05:00</lastmod>
-  </url><url>
-    <loc>https://example.com/posts/mapestimation/</loc>
+    <loc>https://jrichterpowell.ca/blog/</loc>
     <lastmod>2021-02-08T20:35:02-05:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/ttdnw1/</loc>
+    <loc>https://jrichterpowell.ca/</loc>
+    <lastmod>2021-02-08T20:35:02-05:00</lastmod>
+  </url><url>
+    <loc>https://jrichterpowell.ca/blog/mapestimation/</loc>
+    <lastmod>2021-02-08T20:35:02-05:00</lastmod>
+  </url><url>
+    <loc>https://jrichterpowell.ca/blog/ttdnw1/</loc>
     <lastmod>2021-01-22T20:35:02-05:00</lastmod>
   </url><url>
-    <loc>https://example.com/news/</loc>
+    <loc>https://jrichterpowell.ca/news/</loc>
     <lastmod>2020-11-20T17:51:47+03:30</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://jrichterpowell.ca/about/</loc>
     <lastmod>2020-10-20T17:51:47+03:30</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://jrichterpowell.ca/categories/</loc>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://jrichterpowell.ca/tags/</loc>
   </url>
 </urlset>

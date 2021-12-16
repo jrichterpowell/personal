@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>news on Jack Richter-Powell</title>
-    <link>https://example.com/news/</link>
+    <link>https://jrichterpowell.ca/news/</link>
     <description>Recent content in news on Jack Richter-Powell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2020 17:51:47 +0330</lastBuildDate><atom:link href="https://example.com/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Nov 2020 17:51:47 +0330</lastBuildDate><atom:link href="https://jrichterpowell.ca/news/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

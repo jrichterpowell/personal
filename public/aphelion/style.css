@@ -1,0 +1,260 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+    
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+.canvasBack{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image:url("assets/background.svg");
+    background-repeat: repeat;
+	background-size: cover;
+	background-color:#17202A;
+	z-index:-1;
+}
+.gameCanvas{
+	background-image:url("assets/background.svg");
+    background-repeat: repeat;
+	background-size: cover;
+	background-color:#17202A;
+}
+#statusbar
+{
+	list-style-type: none;
+	overflow: hidden;
+  	margin: 0;
+  	padding: 0;
+  	position: absolute;
+}
+
+canvas{
+	display: block;
+	z-index:0;
+	
+}
+ul{
+	display:table;
+	table-layout:fixed;
+}
+ul li{
+	display: table-cell;
+}
+li b{
+	width:250px;
+	font-family: 'Roboto Mono';
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	float: left;
+}
+
+button{
+	z-index:1;
+	position:relative;
+
+}
+
+#PauseOverlay{
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.65);
+	z-index:2;
+	cursor: pointer;
+}
+
+#overlayText{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 64px;
+	font-family: 'Montserrat';
+	color: "#000000";
+	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
+#PauseTextL2{
+	font-size: 32px;
+}
+
+#pauseButton{
+	z-index: 1;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 25px;
+	color: white;
+}
+#statusbar li b{
+	color:white;
+	z-index:1;
+}
+#DeathOverlay{
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.65);
+	z-index:2;
+	cursor: pointer;
+}
+.DeathContainer{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 64px;
+	font-family: 'Montserrat';
+	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.DeathContainer .DeathText{
+	color: white;
+	text-decoration: none;
+	font-size: 32px;
+	margin: 16px;
+}
+
+.DeathContainer b{
+	font-size: 64px;
+}
+.DeathContainer .DeathText a{
+	color: white;
+	text-decoration: none;
+	font-size: 32px;
+}
+
+#IntroOverlay{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:5;
+    width:100%;
+	background-color:rgba(0,0,0,0.65);
+	display:block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:auto;
+
+}
+#IntroInner{
+	width:80%;
+	height:auto;
+	display:block;
+	margin:3% auto 3% auto;
+	padding: 1%;
+	background:#ECF0F1;
+    font-family: "Roboto";
+}
+
+#IntroInner h1{
+	text-align:center;
+	font-family:"Montserrat";
+	font-size: 64px;
+    margin:50px;
+    margin-top: 25px;
+	color:#17202A;
+	border-bottom: 3px solid #3498DB;
+	padding:15px;
+}
+
+#IntroInner h2{
+	text-align:center;
+	font-family:"Montserrat";
+	font-size: 32px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:16px;
+	width:25%;
+	color:#17202A;
+	border-bottom: 2px solid #F39C12;
+}
+
+#IntroAbs{
+	padding: 25px;
+}
+
+.IntroControls{
+	margin-bottom:10px;
+	position:relative;
+	display:inline-block;
+
+}
+.IntroText{
+	box-sizing: border-box;
+	font-size: 16px;
+	width:27.25%;
+	font-weight:100;
+	margin-left:50px;
+	margin-right:150px;
+	vertical-align: middle;
+	display:inline-block;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+#ControlCanvas{
+	box-sizing:border-box;
+	border: 3px solid #3498DB;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right: 50px;
+	width:50%;
+	overflow: hidden;
+}
+
+#controlFuelText{
+	z-index: 1;
+	color: black;
+}
+#MechanicsCanvas{
+	box-sizing:border-box;
+	border: 3px solid #3498DB;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right: 50px;
+	width:50%;
+	overflow: hidden;
+}
+
+#startGame{
+    margin: 25px auto;
+    text-align:center;
+    font-family: "Montserrat";
+    font-size: 24px;
+	width:200px;
+	height: 75px;
+    display:block;
+    border: 2px solid #3498DB;
+}
+#startGame:hover{
+    color: #3498DB;
+    border-color: #F39C12;
+}

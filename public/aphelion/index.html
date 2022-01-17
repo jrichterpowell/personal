@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<link href="style.css" type="text/css" rel=stylesheet>
+<html>
+<head>
+<script type="text/javascript" src="js/paper-core.js"></script>
+<script type="text/javascript">paper.install(window);</script>
+<script type="text/javascript" src='js/utils.js' canvas="myCanvas"></script>
+<script type="text/javascript" src='js/universe.js' canvas="myCanvas"></script>
+<script type="text/javascript" src='js/planet.js' canvas="myCanvas"></script>
+<script type="text/javascript" src='js/ship.js' canvas="myCanvas"></script>
+<script type="text/javascript" src='js/aphelion.js' canvas="myCanvas"></script>
+<script type="text/javascript" src='js/main.js' canvas="myCanvas"></script>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Pro|Montserrat|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--<div id="mainCanvasBack" class="canvasBack" resize></div>-->
+	<canvas id="mainCanvas" class="gameCanvas" resize></canvas>
+	<div id="IntroOverlay">
+		<div id='IntroInner'>
+			<h1>Aphelion</h1>
+			<h2>Controls</h2>
+			<div class="IntroControls">
+				<div class="IntroText">
+				Pilot your ship by clicking in the world. The rocket will accelerate towards the mouse, burning fuel as it does so. Scroll to zoom the view. Test it out by clicking in the frame on the right.
+				</div><canvas id="ControlCanvas" class="gameCanvas"></canvas>
+			</div>
+			<h2>Mechanics</h2>
+			<div id="IntroMechanics">
+				<div class="IntroText">
+				To this end, you'll want to make use of the beauty of orbital mechanics. By flying close (not <i>too</i> close mind you) to a planet, you'll enter into its sphere of gravitational influence. Do this just right, and you'll be able to "slingshot" your craft, achieving a substantially higher exit than entrance velocity, while gaining "deltaV" (the change in velocity). 
+				</div><canvas id="MechanicsCanvas" class="gameCanvas"></canvas>
+			</div>
+			<button id='startGame'>READY</button>
+		</div>
+	</div>
+	<ul id="statusbar">
+	<li><img id='pauseButton' src='assets/pause.svg' height="52" width="52" /></li>
+	<li><b id="fuelText">Remaining Fuel: 100</b></li>
+	<li><b id="distanceText">Distance: x</b></li>
+	<li><b id="fpsText">Fps: y</b></li>
+	<li><b id="scoreText">Fps: y</b></li>
+	</ul>
+	<div id='PauseOverlay'>
+		<div id='overlayText'>
+			<b id="PauseText">GAME<br>PAUSED</b> 
+			<div id="PauseTextL2">CLICK ANYWHERE TO CONTINUE</div>
+		</div>
+	</div>
+	<div id='DeathOverlay' onclick="window.location.reload()">
+		<div class='DeathContainer'>
+			<b>GAME<br>OVER</b>
+			<div id='DeathTextL' class='DeathText'>Final Score: x </div>
+			<div class='DeathText'>Click Anywhere To Play Again</div>
+			<div class='DeathText'><a href='https://github.com/jrichterpowell/aphelion'>Or Click Here to Check out the Repo on GitHub</a></div>
+		</div>
+	</div>
+</body>

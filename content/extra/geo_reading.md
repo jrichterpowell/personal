@@ -1,7 +1,7 @@
 ---
 title: "Riemannian Geometry Reading Group"
 date: 2022-01-08T14:29:06-05:00
-draft: true
+draft: false
 ---
 
 This is the page for the Riemannian Geometry reading group I'm organizing for the winter of 2022. The idea is to explore some basic concepts first to get everyone up to speed, then branch out into more material later on. Below is a list of material along with the week number in which I'd like to get to it, though just the first few weeks for now. I'll be updating it as we go along.

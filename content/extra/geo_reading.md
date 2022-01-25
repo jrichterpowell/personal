@@ -1,5 +1,5 @@
 ---
-title: "Riemannian geometry reading group I organized"
+title: "Riemannian geometry reading group"
 date: 2022-01-08T14:29:06-05:00
 draft: false
 link: '/extra/geo_reading'

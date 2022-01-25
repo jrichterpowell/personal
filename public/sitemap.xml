@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jrichterpowell.ca/blog/</loc>
-    <lastmod>2021-02-08T20:35:02-05:00</lastmod>
-  </url><url>
     <loc>https://jrichterpowell.ca/</loc>
+    <lastmod>2022-01-08T14:29:06-05:00</lastmod>
+  </url><url>
+    <loc>https://jrichterpowell.ca/extra/geo_reading/</loc>
+    <lastmod>2022-01-08T14:29:06-05:00</lastmod>
+  </url><url>
+    <loc>https://jrichterpowell.ca/blog/</loc>
     <lastmod>2021-02-08T20:35:02-05:00</lastmod>
   </url><url>
     <loc>https://jrichterpowell.ca/blog/mapestimation/</loc>
@@ -13,6 +16,9 @@
   </url><url>
     <loc>https://jrichterpowell.ca/blog/ttdnw1/</loc>
     <lastmod>2021-01-22T20:35:02-05:00</lastmod>
+  </url><url>
+    <loc>https://jrichterpowell.ca/extra/</loc>
+    <lastmod>2020-11-20T17:51:47+03:30</lastmod>
   </url><url>
     <loc>https://jrichterpowell.ca/news/</loc>
     <lastmod>2020-11-20T17:51:47+03:30</lastmod>

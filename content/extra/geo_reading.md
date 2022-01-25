@@ -15,7 +15,7 @@ This is the page for the Riemannian Geometry reading group I'm organizing for th
 | 3 |  Curvature and beyond | LeeRM Ch 6-7 | G&Q1 Chapter 17-18 | | 
 
 Notes
-- We are using the first edition of John Lee's Riemmanian Manifolds (link has been updated!)
+- We are using the first edition of John Lee's Riemanian Manifolds (link has been updated!)
 - For week 2, if you are looking for a review of differential forms and cohomology, see chapters 14,17 in LeeSM
 
  

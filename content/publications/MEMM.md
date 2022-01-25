@@ -6,7 +6,7 @@ authors:
 - Rustum Choksi
 date: "2022-01-01"
 
-publication: "JMLR"
+publication: "JMLR (Soon to be submitted)"
 
 ---
 

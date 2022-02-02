@@ -11,8 +11,9 @@ This is the page for the Riemannian Geometry reading group I'm organizing for th
 | Week |  Content |  Reference 1 | Reference 2 | Reference 3 | 
 |:---:|:----------|:-----------|:-------------|:-----|
 | 1 |  Tensors, Review of Diff Geo| LeeRM Ch 2-3 |  Warner Ch 2, G&Q1 Ch14 | Kb&N1 Ch 1.1-1.3 Ch 4.1 | 
-| 2 |  Metrics, Covariant Derivatives / Connections, Geodesics | LeeRM Ch 3-5 | G&Q1 Ch 15-16 |  |
-| 3 |  Curvature and beyond | LeeRM Ch 6-7 | G&Q1 Chapter 17-18 | | 
+| 2 |  Metrics, Covariant Derivatives / Connections, Geodesics | LeeRM Ch 3-4 | G&Q1 Ch 15 |  |
+| 2.5 |  Geodesics, Riemannian Distances, Hopf-Rinow Theorem | LeeRM Ch 5-6 | G&Q1 16 | Kb&N1 3.6, 4.1-4.5|
+| 3 |  Curvature and beyond | LeeRM Ch 7-8 | G&Q1 Chapter 17-18 | | 
 
 Notes
 - We are using the first edition of John Lee's Riemanian Manifolds (link has been updated!)

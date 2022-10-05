@@ -40,5 +40,5 @@ My research involves applying differentiable programming to problems from differ
 
 An example of this can be seen in our recently accepted NeurIPS 2022 paper, [Neural Conservation Laws](https://arxiv.org/abs/2210.01741) (along with [Ricky Chen](https://www.cs.toronto.edu/~rtqichen/) and [Yaron Lipman](https://www.wisdom.weizmann.ac.il/~ylipman/)). A brief synopsis: we exploited the classical identity d^2=0 to parameterize exact solutions of the continuity equation. This allows us to structurally enforce conservation of mass for applications like variable density fluid simulation and dynamical optimal transport.
 
-In the past, I collaborated with [Rustum Choksi](https://www.math.mcgill.ca/rchoksi/) and [Carola Bibiane-Schönlieb](https://www.damtp.cam.ac.uk/user/cbs31/Home.html) on a data-driven the [Maximum Entropy on the Mean Method for Image Deblurring / Denoising](https://arxiv.org/abs/2002.10434).
+In the past, I collaborated with [Rustum Choksi](https://www.math.mcgill.ca/rchoksi/) and [Carola Bibiane-Schönlieb](https://www.damtp.cam.ac.uk/user/cbs31/Home.html) on a data-driven extension of the [Maximum Entropy on the Mean Method for Image Deblurring / Denoising](https://arxiv.org/abs/2002.10434).
 

@@ -34,10 +34,11 @@ academia:
         other_info: 'Completed 9 courses at the graduate level, including core grad math curriculum'
 ---
 
-Hi, I'm Jack Richter-Powell. I've just finished my undergraduate at McGill in Mathematics and Computer Science. I'll be starting a PhD next fall, but I'm not sure where yet. 
+Hi, I'm Jack Richter-Powell. I'm currently interning as a research scientist under the supervision of [David Duvenaud](https://www.cs.toronto.edu/~duvenaud/) at the [Vector Institute](vectorinsitute.ai).
 
-Currently,  my research involves applying differentiable programming to problems from Differential Geometry and Optimal Transport. Some baby steps in this direction were detailed in our recent paper "Input Convex Gradient Networks", but this is just one of many avenues I hope to explore within this paradigm. We are working on a follow up paper that will hopefully go deeper in this direction.
+My research involves applying differentiable programming to problems from differential geometry and optimal transport. Much of this consists of exploiting constructions from exterior and tensor calculus for computational problems found in machine learning.
 
-Concurrently, I am also collaborating with [Rustum Choksi](https://www.math.mcgill.ca/rchoksi/) and [Carola Bibiane-Schönlieb](https://www.damtp.cam.ac.uk/user/cbs31/Home.html) on expanding the [Maximum Entropy on the Mean Method for Image Deblurring / Denoising](https://arxiv.org/abs/2002.10434). We have developed a new method that allows us to incorporate high level features from a dataset into a prior distribution -- which we refer to as a learned prior. We will be detailing this in a upcoming JMLR submission in early 2022.
+An example of this can be seen in our recently accepted NeurIPS 2022 paper, [Neural Conservation Laws](https://arxiv.org/abs/2210.01741) (along with [Ricky Chen](https://www.cs.toronto.edu/~rtqichen/) and [Yaron Lipman](https://www.wisdom.weizmann.ac.il/~ylipman/)). A brief synopsis: we exploited the classical identity d^2=0 to parameterize exact solutions of the continuity equation. This allows us to structurally enforce conservation of mass for applications like variable density fluid simulation and dynamical optimal transport.
 
-Additionally, I am also beginning to work with [Ricky Chen](https://www.cs.toronto.edu/~rtqichen/), [Jesse Bettencourt](https://www.jessebett.com/) and [David Duvenaud](https://www.cs.toronto.edu/~duvenaud/) on extending their work on Neural ODEs to a class of partial differential equations. 
+In the past, I collaborated with [Rustum Choksi](https://www.math.mcgill.ca/rchoksi/) and [Carola Bibiane-Schönlieb](https://www.damtp.cam.ac.uk/user/cbs31/Home.html) on a data-driven the [Maximum Entropy on the Mean Method for Image Deblurring / Denoising](https://arxiv.org/abs/2002.10434).
+

@@ -1,5 +1,5 @@
 ---
-title: "Neural Convseration Laws"
+title: "Neural Conservation Laws"
 authors:
 - Jack Richter-Powell
 - Yaron Lipman

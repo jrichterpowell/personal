@@ -1,0 +1,27 @@
+---
+title: "Is functional analysis actually what we want?"
+date: 2023-01-21T20:35:02-05:00
+---
+
+
+# Is functional analysis actually what we want?
+
+Since this is going to be something of an incendiary post, I feel the need to begin with a disclaimer. I am a very early career scientist. My background is mainly in mathematics and theoretical computer science, and I am completely an autodidact when it comes to the physical sciences. So what I'm about to say should be read with such context in mind. Part of the point of writing this piece, however, is to prompt criticism of this idea which I might otherwise not receive if I were only to share it to my close colleagues, who tend to have similar backgrounds to my own. There's no comment feature on this blog, but if you have thoughts I'd love to hear them via email.
+
+Okay, with that out of the way, let's talk about Partial Differential Equations. PDE are the most versatile tool we have for modelling physical phenomena. Their development in the context of modern physics dates back to Newton's Principia, though without question there are most probably earlier appearances in texts outside western scientific cannon. What makes PDE so useful for describing physical processes is their *locality*. Differentiation is an inherently local operation, so if you write an equation relating the derivatives of a function to each other, you are describing a purely local relationship. Much of our understanding of physics requires this, most blatantly via the cosmic speed limit defined by the speed of light, but also more subtly by the propagation speed of different physical effects such as waves. Marrying this local mathematical formalism with the expectation of locality in the physical world has been enormously successful at providing an accurate, deterministic approximation of the laws of our universe. This continuous formalism, where particles and waves are understood to interact in a local, continuous manner was the dominant viewpoint until the investigation of quantum mechanics began in the early to mid 20th century. 
+
+<!-- During that period, when Einstein looked towards the photoelectric effect, and Shrodinger began to formulate the equation that would later bear his name, it was realized by the physics community that this picture of contin
+ -->
+
+Of course, the atomic model was already at odds with continuum mechanics. Conceptualizing matter as made of fundamental particles of finite size is contradictory to a formulation involving rigorous spatial derivatives, which assume that a limit can be taken to arbitrary precision. This dichotomy was present as early as the work of John Dalton's model of the atom, which predates Maxwell's laws of electromagnestism -- largely considered the crown jewel of the continuum formulation -- by nearly a half century. Development of quantum theory in the early 20th century only made this divide even wider. Quantum mechanics brought the introduction of an entirely different regime, where as proven by Bell in the mid 1960s, locality and observability are mutually independent. This made it even more apparent that the PDE model, reliant on continuous derivatives defined as limits, contains at its core, a fatal paradox:
+
+## The Continuum Paradox
+1. Derivatives, defined as limits, require that we must be able to make the distance between point evaluations of an observable (i.e pressure, temperature, etc) arbitrarily small.
+2. The atomic theory of matter, which is empirically verifiable, tells us that all matter is made of atoms of a finite size. Thus the distance between two points is fundamentally limited to being **at least** the radius of the atomic nuclei. 
+
+At first, this paradox seems to essentially doom any theory 
+
+
+
+
+

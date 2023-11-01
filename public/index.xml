@@ -16,24 +16,5 @@
       <description>This is the page for the Riemannian Geometry reading group I&amp;rsquo;m organizing for the winter of 2022. The idea is to explore some basic concepts first to get everyone up to speed, then branch out into more material later on. Below is a list of material along with the week number in which I&amp;rsquo;d like to get to it, though just the first few weeks for now. I&amp;rsquo;ll be updating it as we go along.</description>
     </item>
     
-    <item>
-      <title>Map Estimation</title>
-      <link>https://jrichterpowell.ca/blog/mapestimation/</link>
-      <pubDate>Mon, 08 Feb 2021 20:35:02 -0500</pubDate>
-      
-      <guid>https://jrichterpowell.ca/blog/mapestimation/</guid>
-      <description>Estimating Monge Maps Kantorovich relaxes Monge If you look in a modern treatment of optimal transportation, you will likely find the problem defined as something like $$ W_c(\mu,\nu) = \inf_{\pi \in \Pi(\mu,\nu)} \int_{X \times Y} c(x,y) d\pi $$ This is the modern definition of the problem, where we model the objective as finding the minimum cost coupling between $\mu$ and $\nu$. But this is not the original formulation of the problem.</description>
-    </item>
-    
-    <item>
-      <title>Things that do not work: Part 1</title>
-      <link>https://jrichterpowell.ca/blog/ttdnw1/</link>
-      <pubDate>Fri, 22 Jan 2021 20:35:02 -0500</pubDate>
-      
-      <guid>https://jrichterpowell.ca/blog/ttdnw1/</guid>
-      <description>Prelude In this series I&amp;rsquo;m going to detail some interesting ideas I tried in my research that didn&amp;rsquo;t pan out. By doing so I hope to help other people avoid wasting time on the same things I did. Perhaps they will even realize that something here is not a waste of time and do something cool with it.
-Definitions One of my areas of interest is Optimal Transportation. The curious reader can no doubt find a better expose of these ideas on Wikipedia or in one of many books, but the gist is the following: we take some Polish metric space $X$, two probability measures $\mu, \nu \in \mathcal{P}(X)$, and a cost function $c : X \times X \rightarrow \mathbb{R}$.</description>
-    </item>
-    
   </channel>
 </rss>

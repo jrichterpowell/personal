@@ -1,7 +1,7 @@
 ---
 title: "Input Convex Gradient Networks"
 authors:
-- Jack Richter-Powell
+- Jessie Richter-Powell
 - Jonathan Lorraine
 - Brandon Amos
 date: "2021-12-13"

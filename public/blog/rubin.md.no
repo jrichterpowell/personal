@@ -1,0 +1,27 @@
+---
+title: "Soon we might all be Rick Rubin"
+date: 2024-05-03T20:35:02-05:00
+---
+
+Every few months, a now-infamous clip of the 60 minutes interview with Rick Rubin makes its rounds on social media, incensing a whole new crowd each time. If you haven't seen it [link], in that clip Rick proudly explains that he doesn't play any instruments, and in his own words "has no technical ability whatsoever." A bold statement for someone who has production credits going back some 40 years, and has had influence over some of the biggest projects in rock, hip hop and popular music during that time. Love him or hate him, there's no question he's left his mark. 
+
+Now, like a lot of things Rick proclaims, this probably also isn't true either. Spending that much time in a studio, it's more or less impossible not to pick up some technical chops. When he says he doesn't play any instruments, it's more likely he doesn't play any "well" -- I'm pretty sure he could find a G chord if handed an acoustic. But all this is beside the point.
+
+Why does this interview seem to piss so many people off? Rick cites his biggest skill as knowing what he likes and doesn't like, and his ability to communicate that. Most of the anger pointed his direction seems to stem from people thinking this is a ridiculous thing to highlight as an asset, and is merely something that anyone who spends too much time arguing on rate your music dot com will learn. They are wrong. 
+
+We live in an age of artistic abundance. It's probably time to include a line like: "since the late 90s the explosion in digital audio workstations has taken the abilities that used to be locked behind the doors and into the hands of the general public". However you express this statement, the result is the same. More artists, more songs, more mixes -- more noise, less signal. The simple reality is that most of it isn't boundary pushing (by defining the median song cannot be) but that's perfectly fine -- it holds value to those that make it and perhaps a small group of listeners, and that's fantastic. 
+
+Generative models --  diffusion, GANS or whatever else comes along -- are only going to make this far worse. On their own, of course, their input is trite and uninteresting. But in the hands of skilled operators, it is hard to debate that they will seriously shorten the time from idea in an alterned state to album on spotify or bandcamp. That firehouse of content that is about to have its flow rate multiplied a million times. 
+
+Curation, in a sense, is the only solution to this problem. By looking to the tastes of others, we can expand our own. 
+
+Could this process be automated? A mechanized critic sifting through partially or mostly computer generated music? In a sense we've had this for a while (I'm describing a GAN). But if you listen to the output of those models for a little while you'll probably notice this doesn't produce anything worth taking seriously. No, I think this task will remain within the realm of human labour for some time to come, for one simple reason: computers (AI, learned or programmed, whatever) don't have experiences. And experiences are what drives curation.
+
+Much in the same way that our choices define our identity, our experiences inform those choices. It's easy to imagine a young rock AR exec who'd later go on to sign many grunge performers having been primed to like that sound from attending punk shows in their youth. My own version of this was hearing an X101 track on a funktion 1 system for the first time and feeling the bass rearrange my organs, which absolutely solidified my love of techno. Curation is so powerful because each of those little tiny life moments that molded your personality influence your selection. 
+
+In my mind, this is what makes DJ'ing interesting. Technically, the skills required are for the most part easily acquirable in a relatively short period of time -- by comparison to any conventional instrument. The magic comes from hearing someone form a coherent collection of music they enjoy gives you a unique window into who they are. Another observable of the hopelessly complex configuration of their mind. Choices tell us what words often cannot. 
+
+
+By building a network of likeminded curators digging for the gems among the rubble, it is possible . If anything curation is a much stronger signal towards the 
+
+

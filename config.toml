@@ -8,7 +8,7 @@ enableEmoji = true
 theme = "avicenna"
 
 # This is your page title, it appears in your tab
-title = "Jack Richter-Powell"
+title = "Jessie Richter-Powell"
 
 # number of posts to show on the blog page
 paginate = 10
@@ -21,5 +21,5 @@ startLevel = 1
 
 [params]
 # it is used for the copy-right section of your page
-name = "Jack Richter-Powell"
+name = "Jessie Richter-Powell"
 math = true

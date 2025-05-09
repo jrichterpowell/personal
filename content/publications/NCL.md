@@ -1,7 +1,7 @@
 ---
 title: "Neural Conservation Laws"
 authors:
-- Jack Richter-Powell
+- Jessie Richter-Powell
 - Yaron Lipman
 - Ricky T. Q. Chen
 date: "2022-08-01"
